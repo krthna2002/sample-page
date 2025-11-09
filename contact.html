@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <title>main page</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+    
+}
+body{
+    font-family: "Young Serif", serif;
+
+}
+        .header{
+           
+    margin: 10px;
+    padding: 20px;
+   
+        }
+        .section1{
+            background-color: black;
+            color:white;
+            padding: 20px;
+        }
+        .section1__contact{
+            background-color: orangered;
+            color:white;
+    text-align: center;
+        margin-top: 4px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: block;
+            width:70px;
+        }
+        .section1__name{
+            font-size: 60px;
+        }
+        .section3{
+            background-color: black;
+            color:white;
+            padding: 10px;
+        }
+        .section3__head a{
+            color:aqua
+        }
+        .section2,.section3
+{
+    margin-top: 20px;
+}  
+.section3__head{
+    padding-bottom: 10px;
+}    
+.section2 input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    /* margin: 20px 0 0 20px; */
+} 
+.section2 textarea{ 
+    padding: 10px;
+    border: 2px solid black;
+    /* margin: 20px 0 0 20px; */
+}
+.section2 input, .section2 textarea,.section2__button{
+    margin-top: 10px;
+}
+.section2 input::placeholder,textarea::placeholder{color: black;}
+.section2 input,textarea:focus{
+    outline: none;}
+
+    .section2 .section2__button{
+        background-color: orangered;
+            color:white;
+    text-align: center;
+    border-radius: 3px;
+       padding:5px 3px 5px 3px;
+           border: 3px solid black;
+           width: 60px;
+    }
+    .section2__button:focus{outline: none;}
+     </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="section1">
+<h1 class="section1__name">Agnel John</h1>
+
+    <p class="section1__head">web development</p>
+
+    <a href="index.html" target="_blank" class="section1__contact">HOME</a>
+    
+        </div>
+        <DIV class="section2">
+    <form>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td> <input type="text" placeholder="enter the name"></td>
+            </tr>
+            <tr>
+                <td>email: </td>
+                <td> <input type="email" placeholder="enter the email"></td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><textarea placeholder="address..."></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button class="section2__button">submit</button></td>
+            </tr><br>
+        </table>
+    </form>
+        </DIV>
+
+        <div class="section3">
+            <p class="section3__head">Social Media: ,<a href="https://github.com/krthna2002" target="_blank">github</a> </p>
+    <p>&copy; Angel John</p>
+     </div>
+    </div>
+
+</body>
+
+</html>
